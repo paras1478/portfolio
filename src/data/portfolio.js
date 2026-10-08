@@ -36,7 +36,7 @@ export const skills = [
   },
   {
     category: 'AI',
-    items: ['OpenAI API', 'Google Gemini'],
+    items: ['OpenAI API', 'Google Gemini', 'Claude', 'Codex', 'Cursor'],
   },
   {
     category: 'Tools & Deployment',
