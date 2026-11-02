@@ -70,7 +70,16 @@ function ComingSoonCard() {
       <div className="w-10 h-10 rounded-xl bg-bg border border-border flex items-center justify-center mb-4">
         <Clock size={18} className="text-text-dim" />
       </div>
-      <p className="text-text-muted text-sm font-medium">More projects coming soon</p>
+      <p className="text-text-muted text-sm font-medium mb-4">More projects coming soon</p>
+      <a
+        href="https://ice-cocktail-beta.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent hover:bg-accent-light text-white text-xs font-medium transition-colors"
+      >
+        <ExternalLink size={14} />
+        Check this out
+      </a>
     </div>
   )
 }
