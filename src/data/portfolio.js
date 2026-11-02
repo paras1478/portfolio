@@ -63,6 +63,15 @@ export const projects = [
     github: 'https://github.com/paras1478/QR',
     demo: 'https://frontend-qr-zvh1.onrender.com/',
   },
+  {
+    name: 'Ice & Mixers Express',
+    featured: false,
+    description:
+      'A modern e-commerce web application for ordering premium ice, cocktail mixers, and beverages online. Features user authentication, product browsing, cart management, secure online payments, real-time order tracking, and an admin dashboard for managing products and orders.',
+    tech: ['React', 'Node.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Tailwind CSS', 'Razorpay'],
+    github: 'https://github.com/paras1478/portfolio',
+    demo: 'https://ice-cocktail-beta.vercel.app/',
+  },
 ]
 
 export const education = {
